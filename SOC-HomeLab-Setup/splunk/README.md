@@ -28,10 +28,10 @@ Tài liệu này thuật lại quá trình dựng phần thu thập log cho dự
 
 ---
 
-## 3. Cài Splunk Enterprise trên máy thật
+## 3. Cài Splunk Enterprise trên Windows 11
 
 1. Cài Splunk Enterprise cho Windows với thư mục mặc định `C:\Program Files\Splunk`, đặt tài khoản quản trị.
-2. Mở `http://localhost:8000` để đăng nhập.
+2. Mở `http://ipaddress:8000` để đăng nhập.
 
 Lý do cài trực tiếp trên máy thật thay vì trong VM: tách SIEM khỏi máy tấn công (Kali), tiết kiệm RAM cho các VM, và code automation sau này gọi được thẳng tới Splunk.
 
